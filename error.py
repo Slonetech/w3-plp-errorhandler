@@ -22,9 +22,7 @@
 #     print(f"An unexpected error occurred: {e}")
 #     with open("error_log.txt", "a") as f:
 #         f.write(f"Unexpected error: {e}\n")
-#         traceback.print_exc(file=f)
-
-# Attempt to execute the following block of code
+#         trace
 try:
     # Open the file "sample.txt" in read mode
     file = open("sample.txt", "r")
