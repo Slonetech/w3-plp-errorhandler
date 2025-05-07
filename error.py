@@ -23,6 +23,11 @@
 #     with open("error_log.txt", "a") as f:
 #         f.write(f"Unexpected error: {e}\n")
 #         trace
+# except Exception as e:
+#     print(f"An unexpected error occurred: {e}")
+#     with open("error_log.txt", "a") as f:
+#         f.write(f"Unexpected error: {e}\n")
+#         trace
 try:
     # Open the file "sample.txt" in read mode
     file = open("sample.txt", "r")
